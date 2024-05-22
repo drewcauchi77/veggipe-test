@@ -6,6 +6,8 @@
         "build": "vite build"
     },
     "devDependencies": {
+        "@tailwindcss/forms": "^0.5.7",
+        "@types/node": "^20.12.12",
         "@vitejs/plugin-vue": "^5.0.4",
         "autoprefixer": "^10.4.19",
         "axios": "^1.6.4",
@@ -17,6 +19,12 @@
         "vue": "^3.4.27"
     },
     "dependencies": {
-        "@inertiajs/vue3": "^1.0.16"
+        "@inertiajs/vue3": "^1.0.16",
+        "class-variance-authority": "^0.7.0",
+        "clsx": "^2.1.1",
+        "lucide-vue-next": "^0.378.0",
+        "radix-vue": "^1.8.0",
+        "tailwind-merge": "^2.3.0",
+        "tailwindcss-animate": "^1.0.7"
     }
 }
