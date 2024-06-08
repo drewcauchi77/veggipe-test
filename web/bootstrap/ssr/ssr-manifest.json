@@ -1,0 +1,54 @@
+{
+  "\u0000plugin-vue:export-helper": [],
+  "node_modules/oh-vue-icons/dist/index.esm.min.js": [],
+  "node_modules/oh-vue-icons/icons/bi/index.js": [],
+  "node_modules/oh-vue-icons/icons/co/index.js": [],
+  "resources/js/Components/Shared/Layout.vue": [],
+  "resources/js/Components/Shared/Layout.vue?vue&type=script&setup=true&lang.ts": [],
+  "resources/js/Components/Shared/Navigation/Navigation.vue": [],
+  "resources/js/Components/Shared/Navigation/Navigation.vue?vue&type=script&setup=true&lang.ts": [],
+  "resources/js/Components/Shared/Navigation/Navigation.vue?vue&type=style&index=0&scoped=be94a7de&lang.css": [],
+  "resources/js/Components/Shared/Navigation/NavigationItem.vue": [],
+  "resources/js/Components/Shared/Navigation/NavigationItem.vue?vue&type=script&setup=true&lang.ts": [],
+  "resources/js/Components/Shared/PageHead.vue": [],
+  "resources/js/Components/Shared/PageHead.vue?vue&type=script&setup=true&lang.ts": [],
+  "resources/js/Components/UI/button/Button.vue": [],
+  "resources/js/Components/UI/button/Button.vue?vue&type=script&setup=true&lang.ts": [],
+  "resources/js/Components/UI/button/index.ts": [],
+  "resources/js/Components/UI/navigation-menu/NavigationMenu.vue": [],
+  "resources/js/Components/UI/navigation-menu/NavigationMenu.vue?vue&type=script&setup=true&lang.ts": [],
+  "resources/js/Components/UI/navigation-menu/NavigationMenuContent.vue": [],
+  "resources/js/Components/UI/navigation-menu/NavigationMenuContent.vue?vue&type=script&setup=true&lang.ts": [],
+  "resources/js/Components/UI/navigation-menu/NavigationMenuItem.vue": [],
+  "resources/js/Components/UI/navigation-menu/NavigationMenuItem.vue?vue&type=script&setup=true&lang.ts": [],
+  "resources/js/Components/UI/navigation-menu/NavigationMenuLink.vue": [],
+  "resources/js/Components/UI/navigation-menu/NavigationMenuLink.vue?vue&type=script&setup=true&lang.ts": [],
+  "resources/js/Components/UI/navigation-menu/NavigationMenuList.vue": [],
+  "resources/js/Components/UI/navigation-menu/NavigationMenuList.vue?vue&type=script&setup=true&lang.ts": [],
+  "resources/js/Components/UI/navigation-menu/NavigationMenuTrigger.vue": [],
+  "resources/js/Components/UI/navigation-menu/NavigationMenuTrigger.vue?vue&type=script&setup=true&lang.ts": [],
+  "resources/js/Components/UI/navigation-menu/NavigationMenuViewport.vue": [],
+  "resources/js/Components/UI/navigation-menu/NavigationMenuViewport.vue?vue&type=script&setup=true&lang.ts": [],
+  "resources/js/Components/UI/navigation-menu/index.ts": [],
+  "resources/js/Lib/icons.ts": [],
+  "resources/js/Lib/utils.ts": [],
+  "resources/js/Pages/About.vue": [
+    "/build/assets/About-hElHdkB1.js"
+  ],
+  "resources/js/Pages/Blog.vue": [
+    "/build/assets/Blog-BzjRPv4i.js"
+  ],
+  "resources/js/Pages/Home.vue": [
+    "/build/assets/Home-D20iP0mX.js"
+  ],
+  "resources/js/Pages/Home.vue?vue&type=script&setup=true&lang.ts": [
+    "/build/assets/Home-D20iP0mX.js"
+  ],
+  "resources/js/Pages/Recipes/Index.vue": [
+    "/build/assets/Index-Cmhr7QQ-.js"
+  ],
+  "resources/js/Pages/Recipes/Recipe.vue": [
+    "/build/assets/Recipe-mGkOEo7k.js"
+  ],
+  "resources/js/ssr.ts": []
+}

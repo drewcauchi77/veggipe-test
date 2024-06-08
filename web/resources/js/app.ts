@@ -1,9 +1,12 @@
-import { createApp, h } from 'vue'
-import { createInertiaApp } from '@inertiajs/vue3'
-import Layout from './Shared/Layout.vue';
+import { createApp, h } from 'vue';
+import { createInertiaApp } from '@inertiajs/vue3';
+import { OhVueIcon } from 'oh-vue-icons';
+import Layout from './Components/Shared/Layout.vue';
+import PageHead from './Components/Shared/PageHead.vue';
+import '@/js/Lib/icons';
 
 createInertiaApp({
-    title: title => `My App`,
+    title: title => `Veggipe | ${title}`,
     resolve: async(name) => {
         const pages = import.meta.glob('./Pages/**/*.vue');
         let page = await pages[`./Pages/${name}.vue`]();
@@ -13,6 +16,10 @@ createInertiaApp({
     setup({ el, App, props, plugin }) {
         createApp({
             render:() => h(App, props)
-        }).use(plugin).mount(el)
+        })
+        .use(plugin)
+        .component('PageHead', PageHead)
+        .component('VIcon', OhVueIcon)
+        .mount(el)
     }
 })

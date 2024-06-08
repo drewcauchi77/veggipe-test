@@ -16,9 +16,13 @@ export default defineConfig({
           "@": path.resolve(__dirname, "resources"),
         },
       },
+      ssr: {
+        noExternal: ["oh-vue-icons"]
+      },
     plugins: [
         laravel({
             input: ['resources/css/app.css', 'resources/js/app.ts'],
+            ssr: 'resources/js/ssr.ts',
             refresh: true,
         }),
         vue({

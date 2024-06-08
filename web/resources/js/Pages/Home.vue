@@ -1,16 +1,14 @@
-<template>
-    <div>
-      <h1 className="text-3xl font-bold underline">
-        Details about the product page
-      </h1>
-    </div>
-</template>
-
 <script setup lang="ts">
-defineProps({
-  name: String,
-})
 </script>
+
+<template>
+    <PageHead :title="'Home'" :description="'This is home'" />
+    <section class="max-w-5xl h-dvh pt-24 my-0 mx-auto">
+        <h1 class="text-5xl font-bold text-center mb-4 lg:text-7xl xl:text-8xl">
+            Your Favourite Vegan Recipes At Your Fingertips!
+        </h1>
+    </section>
+</template>
 
 <style lang="scss" scoped>
 
