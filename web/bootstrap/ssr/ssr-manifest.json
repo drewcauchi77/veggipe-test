@@ -7,11 +7,23 @@
   "resources/js/Components/Shared/Layout.vue?vue&type=script&setup=true&lang.ts": [],
   "resources/js/Components/Shared/Navigation/Navigation.vue": [],
   "resources/js/Components/Shared/Navigation/Navigation.vue?vue&type=script&setup=true&lang.ts": [],
-  "resources/js/Components/Shared/Navigation/Navigation.vue?vue&type=style&index=0&scoped=be94a7de&lang.css": [],
+  "resources/js/Components/Shared/Navigation/Navigation.vue?vue&type=style&index=0&scoped=12533a51&lang.css": [],
   "resources/js/Components/Shared/Navigation/NavigationItem.vue": [],
   "resources/js/Components/Shared/Navigation/NavigationItem.vue?vue&type=script&setup=true&lang.ts": [],
   "resources/js/Components/Shared/PageHead.vue": [],
   "resources/js/Components/Shared/PageHead.vue?vue&type=script&setup=true&lang.ts": [],
+  "resources/js/Components/Shared/Recipe/RecipeDetails.vue": [
+    "/build/assets/Index-DAQMu8Gc.js"
+  ],
+  "resources/js/Components/Shared/Recipe/RecipeDetails.vue?vue&type=script&setup=true&lang.ts": [
+    "/build/assets/Index-DAQMu8Gc.js"
+  ],
+  "resources/js/Components/Shared/Recipe/RecipesTable.vue": [
+    "/build/assets/Index-DAQMu8Gc.js"
+  ],
+  "resources/js/Components/Shared/Recipe/RecipesTable.vue?vue&type=script&setup=true&lang.ts": [
+    "/build/assets/Index-DAQMu8Gc.js"
+  ],
   "resources/js/Components/UI/button/Button.vue": [],
   "resources/js/Components/UI/button/Button.vue?vue&type=script&setup=true&lang.ts": [],
   "resources/js/Components/UI/button/index.ts": [],
@@ -30,6 +42,54 @@
   "resources/js/Components/UI/navigation-menu/NavigationMenuViewport.vue": [],
   "resources/js/Components/UI/navigation-menu/NavigationMenuViewport.vue?vue&type=script&setup=true&lang.ts": [],
   "resources/js/Components/UI/navigation-menu/index.ts": [],
+  "resources/js/Components/UI/table/Table.vue": [
+    "/build/assets/Index-DAQMu8Gc.js"
+  ],
+  "resources/js/Components/UI/table/Table.vue?vue&type=script&setup=true&lang.ts": [
+    "/build/assets/Index-DAQMu8Gc.js"
+  ],
+  "resources/js/Components/UI/table/TableBody.vue": [
+    "/build/assets/Index-DAQMu8Gc.js"
+  ],
+  "resources/js/Components/UI/table/TableBody.vue?vue&type=script&setup=true&lang.ts": [
+    "/build/assets/Index-DAQMu8Gc.js"
+  ],
+  "resources/js/Components/UI/table/TableCaption.vue": [
+    "/build/assets/Index-DAQMu8Gc.js"
+  ],
+  "resources/js/Components/UI/table/TableCaption.vue?vue&type=script&setup=true&lang.ts": [
+    "/build/assets/Index-DAQMu8Gc.js"
+  ],
+  "resources/js/Components/UI/table/TableCell.vue": [
+    "/build/assets/Index-DAQMu8Gc.js"
+  ],
+  "resources/js/Components/UI/table/TableCell.vue?vue&type=script&setup=true&lang.ts": [
+    "/build/assets/Index-DAQMu8Gc.js"
+  ],
+  "resources/js/Components/UI/table/TableEmpty.vue": [
+    "/build/assets/Index-DAQMu8Gc.js"
+  ],
+  "resources/js/Components/UI/table/TableEmpty.vue?vue&type=script&setup=true&lang.ts": [
+    "/build/assets/Index-DAQMu8Gc.js"
+  ],
+  "resources/js/Components/UI/table/TableHead.vue": [
+    "/build/assets/Index-DAQMu8Gc.js"
+  ],
+  "resources/js/Components/UI/table/TableHead.vue?vue&type=script&setup=true&lang.ts": [
+    "/build/assets/Index-DAQMu8Gc.js"
+  ],
+  "resources/js/Components/UI/table/TableHeader.vue": [
+    "/build/assets/Index-DAQMu8Gc.js"
+  ],
+  "resources/js/Components/UI/table/TableHeader.vue?vue&type=script&setup=true&lang.ts": [
+    "/build/assets/Index-DAQMu8Gc.js"
+  ],
+  "resources/js/Components/UI/table/TableRow.vue": [
+    "/build/assets/Index-DAQMu8Gc.js"
+  ],
+  "resources/js/Components/UI/table/TableRow.vue?vue&type=script&setup=true&lang.ts": [
+    "/build/assets/Index-DAQMu8Gc.js"
+  ],
   "resources/js/Lib/icons.ts": [],
   "resources/js/Lib/utils.ts": [],
   "resources/js/Pages/About.vue": [
@@ -39,16 +99,16 @@
     "/build/assets/Blog-BzjRPv4i.js"
   ],
   "resources/js/Pages/Home.vue": [
-    "/build/assets/Home-D20iP0mX.js"
-  ],
-  "resources/js/Pages/Home.vue?vue&type=script&setup=true&lang.ts": [
-    "/build/assets/Home-D20iP0mX.js"
+    "/build/assets/Home-DzXkj-S4.js"
   ],
   "resources/js/Pages/Recipes/Index.vue": [
-    "/build/assets/Index-Cmhr7QQ-.js"
+    "/build/assets/Index-DAQMu8Gc.js"
+  ],
+  "resources/js/Pages/Recipes/Index.vue?vue&type=script&setup=true&lang.ts": [
+    "/build/assets/Index-DAQMu8Gc.js"
   ],
   "resources/js/Pages/Recipes/Recipe.vue": [
-    "/build/assets/Recipe-mGkOEo7k.js"
+    "/build/assets/Recipe-BBlX0ah5.js"
   ],
   "resources/js/ssr.ts": []
 }

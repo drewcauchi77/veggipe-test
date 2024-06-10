@@ -1,14 +1,10 @@
 
 <script setup lang="ts">
 import { Link } from '@inertiajs/vue3';
-import { 
-    NavigationMenuItem, 
-} from '@/js/Components/UI/navigation-menu';
-import {
-    Button
-} from '@/js/Components/UI/button';
+import { NavigationMenuItem } from '@/js/Components/UI/navigation-menu';
+import { Button } from '@/js/Components/UI/button';
 
-const props = defineProps<{
+defineProps<{
     link: string,
     text: string
 }>();
@@ -16,14 +12,10 @@ const props = defineProps<{
 
 <template>
     <NavigationMenuItem>
-        <Button variant="link" class="mx-6 p-0 lg:mr-12 lg:ml-0">
-            <Link :href="props.link">
-                {{ props.text }}
+        <Button variant="link" class="mx-6 p-0 lg:mr-12 lg:ml-0" tabindex="-1">
+            <Link :href="link">
+                {{ text }}
             </Link>
         </Button>
     </NavigationMenuItem>
 </template>
-
-<style scoped>
-
-</style>

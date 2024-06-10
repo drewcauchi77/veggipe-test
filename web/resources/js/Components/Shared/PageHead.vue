@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { Head } from '@inertiajs/vue3';
 
-const props = defineProps<{
+defineProps<{
     title: string,
     description: string,
 }>();
@@ -9,11 +9,7 @@ const props = defineProps<{
 
 <template>
     <Head>
-        <title>{{ props.title }}</title>
-        <meta name="description" :content="props.description">
+        <title>{{ title }}</title>
+        <meta name="description" :content="description">
     </Head>
 </template>
-
-<style scoped>
-
-</style>

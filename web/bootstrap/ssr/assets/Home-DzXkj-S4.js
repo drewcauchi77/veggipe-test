@@ -14,18 +14,18 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs) {
   const _component_PageHead = resolveComponent("PageHead");
   _push(`<!--[-->`);
   _push(ssrRenderComponent(_component_PageHead, {
-    title: "Recipes",
-    description: "This is recipes page"
+    title: "Home",
+    description: "This is home"
   }, null, _parent));
-  _push(`<div><h1>List of recipes + search functionality</h1></div><!--]-->`);
+  _push(`<section class="max-w-5xl h-dvh pt-24 my-0 mx-auto"><h1 class="text-5xl font-bold text-center mb-4 lg:text-7xl xl:text-8xl"> Your Favourite Vegan Recipes At Your Fingertips! </h1></section><!--]-->`);
 }
 const _sfc_setup = _sfc_main.setup;
 _sfc_main.setup = (props, ctx) => {
   const ssrContext = useSSRContext();
-  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("resources/js/Pages/Recipes/Index.vue");
+  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("resources/js/Pages/Home.vue");
   return _sfc_setup ? _sfc_setup(props, ctx) : void 0;
 };
-const Index = /* @__PURE__ */ _export_sfc(_sfc_main, [["ssrRender", _sfc_ssrRender]]);
+const Home = /* @__PURE__ */ _export_sfc(_sfc_main, [["ssrRender", _sfc_ssrRender]]);
 export {
-  Index as default
+  Home as default
 };

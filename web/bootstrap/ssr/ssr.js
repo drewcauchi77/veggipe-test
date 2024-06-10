@@ -1,4 +1,4 @@
-import { defineComponent, ref, reactive, computed, onMounted, onUpdated, toRefs, h as h$1, mergeProps, unref, useSSRContext, withCtx, renderSlot, createVNode, createTextVNode, toDisplayString, createSSRApp } from "vue";
+import { defineComponent, ref, reactive, computed, onMounted, onUpdated, toRefs, h as h$1, mergeProps, unref, useSSRContext, withCtx, renderSlot, createVNode, createTextVNode, toDisplayString, resolveComponent, createSSRApp } from "vue";
 import { Link, Head, createInertiaApp } from "@inertiajs/vue3";
 import { renderToString } from "@vue/server-renderer";
 import createServer from "@inertiajs/vue3/server";
@@ -447,26 +447,24 @@ const _sfc_main$3 = /* @__PURE__ */ defineComponent({
     text: {}
   },
   setup(__props) {
-    const props = __props;
     return (_ctx, _push, _parent, _attrs) => {
       _push(ssrRenderComponent(unref(_sfc_main$8), _attrs, {
         default: withCtx((_, _push2, _parent2, _scopeId) => {
           if (_push2) {
             _push2(ssrRenderComponent(unref(_sfc_main$4), {
               variant: "link",
-              class: "mx-6 p-0 lg:mr-12 lg:ml-0"
+              class: "mx-6 p-0 lg:mr-12 lg:ml-0",
+              tabindex: "-1"
             }, {
               default: withCtx((_2, _push3, _parent3, _scopeId2) => {
                 if (_push3) {
-                  _push3(ssrRenderComponent(unref(Link), {
-                    href: props.link
-                  }, {
+                  _push3(ssrRenderComponent(unref(Link), { href: _ctx.link }, {
                     default: withCtx((_3, _push4, _parent4, _scopeId3) => {
                       if (_push4) {
-                        _push4(`${ssrInterpolate(props.text)}`);
+                        _push4(`${ssrInterpolate(_ctx.text)}`);
                       } else {
                         return [
-                          createTextVNode(toDisplayString(props.text), 1)
+                          createTextVNode(toDisplayString(_ctx.text), 1)
                         ];
                       }
                     }),
@@ -474,11 +472,9 @@ const _sfc_main$3 = /* @__PURE__ */ defineComponent({
                   }, _parent3, _scopeId2));
                 } else {
                   return [
-                    createVNode(unref(Link), {
-                      href: props.link
-                    }, {
+                    createVNode(unref(Link), { href: _ctx.link }, {
                       default: withCtx(() => [
-                        createTextVNode(toDisplayString(props.text), 1)
+                        createTextVNode(toDisplayString(_ctx.text), 1)
                       ]),
                       _: 1
                     }, 8, ["href"])
@@ -491,14 +487,13 @@ const _sfc_main$3 = /* @__PURE__ */ defineComponent({
             return [
               createVNode(unref(_sfc_main$4), {
                 variant: "link",
-                class: "mx-6 p-0 lg:mr-12 lg:ml-0"
+                class: "mx-6 p-0 lg:mr-12 lg:ml-0",
+                tabindex: "-1"
               }, {
                 default: withCtx(() => [
-                  createVNode(unref(Link), {
-                    href: props.link
-                  }, {
+                  createVNode(unref(Link), { href: _ctx.link }, {
                     default: withCtx(() => [
-                      createTextVNode(toDisplayString(props.text), 1)
+                      createTextVNode(toDisplayString(_ctx.text), 1)
                     ]),
                     _: 1
                   }, 8, ["href"])
@@ -524,7 +519,14 @@ const _sfc_main$2 = /* @__PURE__ */ defineComponent({
   __ssrInlineRender: true,
   setup(__props) {
     return (_ctx, _push, _parent, _attrs) => {
-      _push(`<header${ssrRenderAttrs(mergeProps({ class: "h-24" }, _attrs))} data-v-be94a7de><section class="px-5 max-w-screen-2xl mx-auto flex h-full items-center content-center md:grid md:grid-cols-3" data-v-be94a7de><div class="menu md:order-1 md:justify-self-center lg:justify-self-start" data-v-be94a7de>`);
+      const _component_VIcon = resolveComponent("VIcon");
+      _push(`<header${ssrRenderAttrs(_attrs)} data-v-12533a51><section class="px-5 max-w-screen-xl mx-auto flex h-full items-center content-center md:grid md:grid-cols-3" data-v-12533a51><div class="menu md:order-1 md:justify-self-center lg:justify-self-start" data-v-12533a51>`);
+      _push(ssrRenderComponent(_component_VIcon, {
+        name: "co-hamburger-menu",
+        class: "burger mr-4 h-8 w-auto block md:hidden",
+        role: "button",
+        tabindex: "0"
+      }, null, _parent));
       _push(ssrRenderComponent(unref(_sfc_main$a), { class: "hidden md:block" }, {
         default: withCtx((_, _push2, _parent2, _scopeId) => {
           if (_push2) {
@@ -586,14 +588,14 @@ const _sfc_main$2 = /* @__PURE__ */ defineComponent({
         }),
         _: 1
       }, _parent));
-      _push(`</div><div class="grow md:justify-self-start lg:order-2 lg:justify-self-center" data-v-be94a7de>`);
+      _push(`</div><div class="grow md:justify-self-start lg:order-2 lg:justify-self-center" data-v-12533a51>`);
       _push(ssrRenderComponent(unref(Link), {
         href: "/",
         class: "block w-fit min-w-12 mr-5 lg:mr-0"
       }, {
         default: withCtx((_, _push2, _parent2, _scopeId) => {
           if (_push2) {
-            _push2(`<img src="/assets/logo-sm.png" alt="Veggipe" class="h-12 object-contain block sm:hidden" data-v-be94a7de${_scopeId}><img src="/assets/logo.png" alt="Veggipe" class="h-8 object-contain hidden sm:block md:h-10 lg:h-11" data-v-be94a7de${_scopeId}>`);
+            _push2(`<img src="/assets/logo-sm.png" alt="Veggipe" class="h-12 object-contain block sm:hidden" data-v-12533a51${_scopeId}><img src="/assets/logo.png" alt="Veggipe" class="h-8 object-contain hidden sm:block md:h-10 lg:h-11" data-v-12533a51${_scopeId}>`);
           } else {
             return [
               createVNode("img", {
@@ -611,11 +613,11 @@ const _sfc_main$2 = /* @__PURE__ */ defineComponent({
         }),
         _: 1
       }, _parent));
-      _push(`</div><div class="flex items-center md: justify-self-end md:order-2" data-v-be94a7de>`);
+      _push(`</div><div class="flex items-center md: justify-self-end md:order-2" data-v-12533a51>`);
       _push(ssrRenderComponent(unref(_sfc_main$4), {
-        class: "rounded-full mr-8 px-0",
+        class: "rounded-full px-5 mr-5",
         size: "lg",
-        variant: "link"
+        variant: "outline"
       }, {
         default: withCtx((_, _push2, _parent2, _scopeId) => {
           if (_push2) {
@@ -660,15 +662,15 @@ _sfc_main$2.setup = (props, ctx) => {
   (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("resources/js/Components/Shared/Navigation/Navigation.vue");
   return _sfc_setup$2 ? _sfc_setup$2(props, ctx) : void 0;
 };
-const Navigation = /* @__PURE__ */ _export_sfc(_sfc_main$2, [["__scopeId", "data-v-be94a7de"]]);
+const Navigation = /* @__PURE__ */ _export_sfc(_sfc_main$2, [["__scopeId", "data-v-12533a51"]]);
 const _sfc_main$1 = /* @__PURE__ */ defineComponent({
   __name: "Layout",
   __ssrInlineRender: true,
   setup(__props) {
     return (_ctx, _push, _parent, _attrs) => {
       _push(`<!--[-->`);
-      _push(ssrRenderComponent(Navigation, null, null, _parent));
-      _push(`<main><section class="px-5 max-w-screen-2xl mx-auto">`);
+      _push(ssrRenderComponent(Navigation, { class: "h-24 fixed bg-white w-full top-0 z-50" }, null, _parent));
+      _push(`<main><section class="px-5 max-w-screen-xl mx-auto">`);
       ssrRenderSlot(_ctx.$slots, "default", {}, null, _push, _parent);
       _push(`</section></main><!--]-->`);
     };
@@ -688,18 +690,17 @@ const _sfc_main = /* @__PURE__ */ defineComponent({
     description: {}
   },
   setup(__props) {
-    const props = __props;
     return (_ctx, _push, _parent, _attrs) => {
       _push(ssrRenderComponent(unref(Head), _attrs, {
         default: withCtx((_, _push2, _parent2, _scopeId) => {
           if (_push2) {
-            _push2(`<title${_scopeId}>${ssrInterpolate(props.title)}</title><meta name="description"${ssrRenderAttr("content", props.description)}${_scopeId}>`);
+            _push2(`<title${_scopeId}>${ssrInterpolate(_ctx.title)}</title><meta name="description"${ssrRenderAttr("content", _ctx.description)}${_scopeId}>`);
           } else {
             return [
-              createVNode("title", null, toDisplayString(props.title), 1),
+              createVNode("title", null, toDisplayString(_ctx.title), 1),
               createVNode("meta", {
                 name: "description",
-                content: props.description
+                content: _ctx.description
               }, null, 8, ["content"])
             ];
           }
@@ -722,9 +723,9 @@ createServer(
   (page) => createInertiaApp({
     page,
     render: renderToString,
-    title: (title) => `Veggipe | ${title}`,
+    title: (title) => `${title} | Veggipe`,
     resolve: async (name) => {
-      const pages = /* @__PURE__ */ Object.assign({ "./Pages/About.vue": () => import("./assets/About-hElHdkB1.js"), "./Pages/Blog.vue": () => import("./assets/Blog-BzjRPv4i.js"), "./Pages/Home.vue": () => import("./assets/Home-D20iP0mX.js"), "./Pages/Recipes/Index.vue": () => import("./assets/Index-Cmhr7QQ-.js"), "./Pages/Recipes/Recipe.vue": () => import("./assets/Recipe-mGkOEo7k.js") });
+      const pages = /* @__PURE__ */ Object.assign({ "./Pages/About.vue": () => import("./assets/About-hElHdkB1.js"), "./Pages/Blog.vue": () => import("./assets/Blog-BzjRPv4i.js"), "./Pages/Home.vue": () => import("./assets/Home-DzXkj-S4.js"), "./Pages/Recipes/Index.vue": () => import("./assets/Index-DAQMu8Gc.js"), "./Pages/Recipes/Recipe.vue": () => import("./assets/Recipe-BBlX0ah5.js") });
       let page2 = await pages[`./Pages/${name}.vue`]();
       if (page2.default.layout === void 0)
         page2.default.layout = _sfc_main$1;
@@ -738,5 +739,7 @@ createServer(
   })
 );
 export {
-  _export_sfc as _
+  _export_sfc as _,
+  _sfc_main$4 as a,
+  cn as c
 };

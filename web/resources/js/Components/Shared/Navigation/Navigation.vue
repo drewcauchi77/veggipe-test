@@ -10,7 +10,7 @@ import NavigationItem from './NavigationItem.vue';
 
 <template>
     <header>
-        <section class="px-5 max-w-screen-2xl mx-auto flex h-full items-center content-center md:grid md:grid-cols-3">
+        <section class="px-5 max-w-screen-xl mx-auto flex h-full items-center content-center md:grid md:grid-cols-3">
             <div class="menu md:order-1 md:justify-self-center lg:justify-self-start">
                 <VIcon name="co-hamburger-menu" class="burger mr-4 h-8 w-auto block md:hidden" role="button" tabindex="0" />
                 <NavigationMenu class="hidden md:block">
@@ -28,7 +28,7 @@ import NavigationItem from './NavigationItem.vue';
                 </Link>
             </div>
             <div class="flex items-center md: justify-self-end md:order-2">
-                <Button class="rounded-full mr-8 px-0" size="lg" variant="link">Login</Button>
+                <Button class="rounded-full px-5 mr-5" size="lg" variant="outline">Login</Button>
                 <Button class="rounded-full px-5" size="lg">Sign Up</Button>
             </div>
         </section>

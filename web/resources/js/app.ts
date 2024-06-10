@@ -6,7 +6,7 @@ import PageHead from './Components/Shared/PageHead.vue';
 import '@/js/Lib/icons';
 
 createInertiaApp({
-    title: title => `Veggipe | ${title}`,
+    title: title => `${title} | Veggipe`,
     resolve: async(name) => {
         const pages = import.meta.glob('./Pages/**/*.vue');
         let page = await pages[`./Pages/${name}.vue`]();

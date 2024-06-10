@@ -21,6 +21,7 @@
     "dependencies": {
         "@inertiajs/vue3": "^1.0.16",
         "@vue/server-renderer": "^3.4.27",
+        "@vueuse/core": "^10.10.0",
         "class-variance-authority": "^0.7.0",
         "clsx": "^2.1.1",
         "lucide-vue-next": "^0.378.0",

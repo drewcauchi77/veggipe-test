@@ -7,11 +7,14 @@ use Inertia\Inertia;
 Route::get('/', function () {
     return Inertia::render('Home');
 })->name('home');
+
 Route::get('/about', function () {
     return Inertia::render('About');
 })->name('about');
+
 Route::get('/blog', function () {
     return Inertia::render('Blog');
 })->name('blog');
+
 Route::get('/recipes', [RecipeController::class, 'index'])->name('recipes');
-Route::get('/recipes/{recipe}', [RecipeController::class, 'index'])->name('recipe');
+Route::get('/recipes/{slug}/{id}', [RecipeController::class, 'single'])->name('recipe');
